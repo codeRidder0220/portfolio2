@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Huninn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+
+  --font-main: "Martel Sans", sans-serif;
+  --font-special: "Huninn", sans-serif;
+  --font-nav: "Kranky", serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.tech-card {
+  width: 200px;
+  min-height: 120px;
+  
+  transition:
+    width 0.5s ease,
+    min-height 0.5s ease,
+    border-color 0.5s ease;
+}
+
+.tech-card:hover {
+  border-color: #3c4044;
+}
+
+.tech-card-active {
+  width: 360px;
+  min-height: 180px;
+}
+
+.tech-card-content {
+  animation: techExpand 0.4s ease forwards;
+}
+
+@keyframes techExpand {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 640px) {
+  .tech-card {
+    width: 160px;
+    min-height: 120px;
+  }
+
+  .tech-card-active {
+    width: 290px;
+    min-height: 150px;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
