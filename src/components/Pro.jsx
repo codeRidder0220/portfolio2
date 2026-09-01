@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import job from "../assets/jobfinder.jpg"
 
 const Pro = () => {
     return (
@@ -71,10 +72,11 @@ const Pro = () => {
                             md:min-h-90
                             bg-[#0d0d0d]
                             overflow-hidden
+            
                         ">
 
                             <img
-                                src="/job-finder.png"
+                                src={job}
                                 alt="Job Finder Project"
                                 className="
                                     w-full
@@ -82,8 +84,10 @@ const Pro = () => {
                                     min-h-75
                                     md:min-h-90
                                     object-cover
+                                    
                                 "
                             />
+
 
                         </div>
 
