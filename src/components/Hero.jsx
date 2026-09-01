@@ -2,8 +2,6 @@ import React from "react";
 import cover from "../assets/chat.png";
 import profile from "../assets/hero.png";
 import { FaGithub, FaLinkedin, FaRegFilePdf } from "react-icons/fa";
-import x from "../assets/twitter.png";
-import git from "../assets/git.png";
 import { Typewriter } from "react-simple-typewriter";
 import { FaLocationDot, FaSquareXTwitter } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
