@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import vid from "../assets/job.mp4"
 
 const ProjectDetails = () => {
     return (
@@ -103,7 +104,7 @@ const ProjectDetails = () => {
                         className="w-full aspect-video object-cover"
                     >
                         <source
-                            src="/job-finder-demo.mp4"
+                            src={vid}
                             type="video/mp4"
                         />
                     </video>

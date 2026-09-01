@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import job from "../assets/jobfinder.jpg"
+import job from "../assets/jobb.png"
+import pro from "../assets/pro2.png"
+
 
 const Pro = () => {
     return (
@@ -38,6 +40,7 @@ const Pro = () => {
                     bg-[#080808]
                     overflow-hidden
                     shadow-[0_8px_30px_rgba(156,163,175,0.08)]
+                    mb-20
                 ">
 
                     {/* Project Type */}
@@ -51,13 +54,13 @@ const Pro = () => {
                         py-1.5
                         rounded-full
                         border
-                        border-gray-700
-                        bg-black/80
+                        border-[#b6780c]
+                        bg-[#b6780c]/20
                         backdrop-blur-md
                         text-[11px]
                         uppercase
                         tracking-wider
-                        text-gray-400
+                        text-[#fdb435]
                     ">
                         Frontend
                     </div>
@@ -117,14 +120,14 @@ const Pro = () => {
                                     font-bold
                                     text-gray-200
                                 ">
-                                    Job Finder
+                                    Job <span className="text-[#D97706]">Finder</span>
                                 </h2>
 
                                 <p className="
                                     mt-4
                                     text-sm
                                     sm:text-base
-                                    text-gray-500
+                                    text-gray-400
                                     leading-relaxed
                                 ">
                                     A modern job searching platform where users
@@ -176,7 +179,7 @@ const Pro = () => {
                                         items-center
                                         justify-center
                                         text-gray-400
-                                        hover:text-white
+                                        hover:text-[#D97706]
                                         hover:border-gray-500
                                         transition-all
                                     "
@@ -193,6 +196,181 @@ const Pro = () => {
                                 </Link>
 
                             </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                {/* ================= PROJECT CARD -2 ================= */}
+
+                <div className="
+                
+                    relative
+                    rounded-2xl
+                    border
+                    border-gray-800
+                    bg-[#080808]
+                    overflow-hidden
+                    shadow-[0_8px_30px_rgba(156,163,175,0.08)]
+                ">
+
+                    {/* Project Type */}
+
+                    {/* <div className="
+                        absolute
+                        top-4
+                        right-4
+                        z-10
+                        px-3
+                        py-1.5
+                        rounded-full
+                        border
+                        border-[#b6780c]
+                        bg-[#b6780c]/20
+                        backdrop-blur-md
+                        text-[11px]
+                        uppercase
+                        tracking-wider
+                        text-[#fdb435]
+                    ">
+                        Frontend
+                    </div> */}
+
+
+                    <div className="grid grid-cols-1 md:grid-cols-2">
+
+                        {/* ================= IMAGE ================= */}
+
+                        <div className="
+                            min-h-75
+                            md:min-h-90
+                            bg-[#0d0d0d]
+                            overflow-hidden
+            
+                        ">
+
+                            <img
+                                src={pro}
+                                alt="Job Finder Project"
+                                className="
+                                    w-full
+                                    h-full
+                                    min-h-75
+                                    md:min-h-90
+                                    object-cover
+                                    
+                                "
+                            />
+
+
+                        </div>
+
+
+                        {/* ================= DETAILS ================= */}
+
+                        <div className="
+                            p-7
+                            sm:p-9
+                            flex
+                            items-center
+                            justify-center
+                            min-h-75
+                            md:min-h-90
+                        ">
+
+                            <div>
+
+                                <p className="text-xs text-gray-600 font-mono mb-5">
+                                    02
+                                </p>
+                                <div className="flex items-center justify-center">
+                                    <h1 className="text-4xl text-gray-500 md:text-6xl font-nav font-bold tracking-[4px]">Commig Soon...</h1>
+                                </div>
+
+                                {/* <h2 className="
+                                    text-2xl
+                                    sm:text-3xl
+                                    font-main
+                                    font-bold
+                                    text-gray-200
+                                ">
+                                    Job <span className="text-[#D97706]">Finder</span>
+                                </h2> */}
+
+                                {/* <p className="
+                                    mt-4
+                                    text-sm
+                                    sm:text-base
+                                    text-gray-400
+                                    leading-relaxed
+                                ">
+                                    A modern job searching platform where users
+                                    can explore jobs, filter opportunities,
+                                    browse companies and discover different
+                                    career categories.
+                                </p> */}
+
+
+                                {/* Technologies */}
+
+                                {/* <div className="flex flex-wrap gap-2 mt-6">
+
+                                    <span className="tech-pill">
+                                        React
+                                    </span>
+
+                                    <span className="tech-pill">
+                                        JavaScript
+                                    </span>
+
+                                    <span className="tech-pill">
+                                        Tailwind CSS
+                                    </span>
+
+                                    <span className="tech-pill">
+                                        React Router
+                                    </span>
+
+                                </div> */}
+
+                            </div>
+
+
+                            {/* Arrow */}
+
+                            {/* <div className="flex justify-end mt-8">
+
+                                <Link
+                                    to="/projects/job-finder"
+                                    className="
+                                        group
+                                        w-12
+                                        h-12
+                                        rounded-full
+                                        border
+                                        border-gray-700
+                                        flex
+                                        items-center
+                                        justify-center
+                                        text-gray-400
+                                        hover:text-[#D97706]
+                                        hover:border-gray-500
+                                        transition-all
+                                    "
+                                >
+
+                                    <span className="
+                                        text-xl
+                                        transition-transform
+                                        group-hover:translate-x-1
+                                    ">
+                                        →
+                                    </span>
+
+                                </Link>
+
+                            </div> */}
 
                         </div>
 

@@ -90,7 +90,7 @@ const About = () => {
                 <div className="border-b border-gray-800 pb-9">
 
 
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-nav tracking-tight text-gray-200">
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-main tracking-tight text-gray-200">
                         Okay, A Little About Me
                     </h1>
 
@@ -119,7 +119,7 @@ const About = () => {
 
                         <button
                             onClick={() => setShowMore(!showMore)}
-                            className="text-gray-500 font-semibold hover:text-gray-400 transition-colors cursor-pointer "
+                            className="text-gray-300 font-semibold hover:text-gray-400 transition-colors cursor-pointer "
                         >
                             {showMore ? "← Less" : "Show more →"}
                         </button>
@@ -385,17 +385,6 @@ const About = () => {
                             animate-pulse
                         ">
                             Click a card to expand
-                        </p>
-
-
-                        <p className="
-                            text-[10px]
-                            sm:text-[13px]
-                            mr-2
-                            text-gray-300
-                            mt-1
-                        ">
-                            Scroll to explore ---{">"}
                         </p>
 
                     </div>
