@@ -6,6 +6,12 @@ import back from '../assets/back.png'
 import tool from '../assets/tool.png'
 import db from '../assets/mongo-db.png'
 import lang from '../assets/coding-folder.png'
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
+
+
 
 const About = () => {
 
@@ -541,23 +547,42 @@ const About = () => {
                     <div className="flex flex-wrap gap-3 mt-8">
 
                         <a
-                            href="#"
-                            className="px-5 py-2.5 rounded-full border border-gray-700 text-sm text-gray-300 hover:text-white hover:border-gray-500"
+                            href="https://github.com/codeRidder0220"
+                            className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-gray-700 text-sm text-gray-300 hover:text-white hover:border-gray-500"
                         >
+                            <FaGithub className="text-lg" />
                             GitHub
-                        </a>
+                        </a>  
 
                         <a
-                            href="#"
-                            className="px-5 py-2.5 rounded-full border border-gray-700 text-sm text-gray-300 hover:text-white hover:border-gray-500"
+                            href="https://www.linkedin.com/feed/"
+                            className="flex gap-2 px-5 py-2.5 rounded-full border border-gray-700 text-sm text-gray-300 hover:text-white hover:border-gray-500"
                         >
+                            <FaLinkedin className=" text-lg" />
                             LinkedIn
                         </a>
 
                         <a
-                            href="#"
-                            className="px-5 py-2.5 rounded-full border border-gray-700 text-sm text-gray-300 hover:text-white hover:border-gray-500"
+                            href="https://x.com/Ankit_Singh0220"
+                            className="flex gap-2 items-center px-5 py-2.5 rounded-full border border-gray-700 text-sm text-gray-300 hover:text-white hover:border-gray-500"
                         >
+                            <BsTwitterX className="text-md" />
+                            Twitter
+                        </a>
+
+                        <a
+                            href="https://www.instagram.com/k_arthik0220/"
+                            className="flex gap-2 items-center px-5 py-2.5 rounded-full border border-gray-700 text-sm text-gray-300 hover:text-white hover:border-gray-500"
+                        >
+                            <AiFillInstagram className="text-xl"/>
+                            Instagram
+                        </a>
+
+                        <a
+                            href="mailto:coderidder0202@gmail.com"
+                            className="flex gap-2 items-center px-5 py-2.5 rounded-full border border-gray-700 text-sm text-gray-300 hover:text-white hover:border-gray-500"
+                        >
+                            <SiGmail className="text-lg"/>
                             Email
                         </a>
 
