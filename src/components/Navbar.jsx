@@ -1,5 +1,5 @@
-import React ,{useEffect} from "react";
-import { Link ,useLocation} from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const location = useLocation();
@@ -21,12 +21,16 @@ const Navbar = () => {
       <div className="max-w-4xl mx-auto flex justify-center ">
         <div className="flex items-center w-150 justify-center gap-8 sm:gap-12 border border-gray-700 bg-gray-600/10 backdrop-blur-2xl rounded-full px-10 sm:px-16 py-3 ">
 
-          <Link
+          <NavLink
             to="/"
-            className="text-sm sm:text-base font-main  text-gray-300 font-bold hover:text-white transition-colors"
+            className={({ isActive }) =>
+              `text-sm sm:text-base font-main font-bold 
+               hover:text-white transition-colors
+               ${isActive ? "text-white" : "text-gray-300 hover:text-white"}`
+            }          
           >
             Home
-          </Link>
+          </NavLink>
 
           <a
             href="/#about"
@@ -35,12 +39,16 @@ const Navbar = () => {
             About
           </a>
 
-          <Link
+          <NavLink
+
             to="/projects"
-            className="text-sm sm:text-base font-main text-gray-300 font-bold hover:text-white transition-colors"
-          >
+            className={({ isActive }) =>
+              `text-sm sm:text-base font-main font-bold 
+               hover:text-white transition-colors
+               ${isActive ? "text-white" : "text-gray-300 hover:text-white"}`
+            }          >
             Projects
-          </Link>
+          </NavLink>
 
         </div>
       </div>

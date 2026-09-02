@@ -4,7 +4,7 @@ import vid from "../assets/job.mp4"
 
 const ProjectDetails = () => {
     return (
-        <section className="min-h-screen bg-black text-gray-200 px-4 py-10">
+        <section className="min-h-screen bg-black text-gray-200 px-4 py-15">
 
             <div className="max-w-4xl mx-auto">
 
@@ -55,7 +55,7 @@ const ProjectDetails = () => {
                                 font-bold
                                 text-white
                             ">
-                                Job Finder
+                                Job <span className="text-[#D97706]">Finder</span>
                             </h1>
 
                         </div>
@@ -70,11 +70,12 @@ const ProjectDetails = () => {
                             py-2
                             rounded-full
                             border
-                            border-gray-700
+                            border-[#b6780c]
+                            bg-[#b6780c]/20
                             text-xs
                             uppercase
                             tracking-wider
-                            text-gray-400
+                             text-[#fdb435]
                         ">
                             Frontend
                         </span>
@@ -139,7 +140,7 @@ const ProjectDetails = () => {
                             text-2xl
                             sm:text-3xl
                             font-bold
-                            text-white
+                            text-gary-200
                             mb-5
                         ">
                             Finding jobs without making it feel like work.
@@ -267,7 +268,7 @@ const ProjectDetails = () => {
                         text-xs
                         uppercase
                         tracking-[0.25em]
-                        text-gray-600
+                        text-gray-500
                         font-mono
                         mb-5
                     ">
@@ -279,6 +280,14 @@ const ProjectDetails = () => {
 
                         <span className="tech-pill">
                             React
+                        </span>
+
+                        <span className="tech-pill">
+                            HTML
+                        </span>
+
+                        <span className="tech-pill">
+                            CSS
                         </span>
 
                         <span className="tech-pill">

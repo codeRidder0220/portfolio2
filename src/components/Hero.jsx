@@ -48,16 +48,22 @@ const Hero = () => {
               </h2>
 
 
-              <div className="mt-5 space-y-3 text-sm text-gray-400">
+              <div className="mt-5 space-y-2 text-sm text-gray-400">
 
                                 
-                <p className="flex gap-1 items-center justify-center sm:justify-start"> <FaLocationDot className="text-md text-green-500 animate-pulse" /> India </p>
-
-                <p className="break-all">
-                  📩 karthik@example.com
+                <p className="flex gap-1 items-center justify-center sm:justify-start">
+                  
+                <FaLocationDot className="text-md text-green-500 animate-pulse" /> India 
+                
                 </p>
 
-                <p className="break-all">
+                <a
+                href="mailto:coderidder0202@gmail.com"
+                 className="break-all">
+                  📩 karthik@example.com
+                </a>
+
+                <p className="break-all mt-2">
                   📞 +91-9140071261
                 </p>
 
@@ -73,10 +79,10 @@ const Hero = () => {
                 Ankit Singh
               </h1>
 
-              <p className="text-gray-300 text-sm sm:text-lg font-bold mt-2">
+              <p className="text-gray-300 text-sm sm:text-lg font-special font-bold mt-2">
                 <Typewriter words={[
                   "Full Stack Developer",
-                  "DSA Enthusiastin c++",
+                  "DSA Enthusiast(c++)",
                   "Competetive programming",
                   "Aspiring GenAi"
                 ]}
@@ -98,7 +104,7 @@ const Hero = () => {
               <div className="flex flex-wrap justify-center md:justify-start gap-9 mt-7">
 
                 <a
-                  href="#"
+                  href="https://github.com/codeRidder0220"
                   className=" text-xl font-semibold text-gray-200 hover:text-gray-400"
                 >
                   <div className="flex gap-2 justify-center items-center">
@@ -120,7 +126,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/feed/"
                   className=" text-xl font-semibold text-gray-200 hover:text-blue-500 transition-colors"
                 >
                   <div className="flex items-center justify-center gap-1">
