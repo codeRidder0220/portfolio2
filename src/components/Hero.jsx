@@ -1,6 +1,6 @@
 import React from "react";
-import cover from "../assets/chat.png";
-import profile from "../assets/hero.png";
+import cover from "../assets/cover.jpg";
+import profile from "../assets/profile.png";
 import { FaGithub, FaLinkedin, FaRegFilePdf } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import { FaLocationDot, FaSquareXTwitter } from "react-icons/fa6";
@@ -24,11 +24,11 @@ const Hero = () => {
 
           {/* Profile Image */}
           <div className="absolute left-6 sm:left-10 md:left-14 -bottom-20 sm:-bottom-24">
-            <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-full border-4 border-black bg-black overflow-hidden">
+            <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-full border-4 border-black bg-black overflow-hidden hover:shadow-[0_5px_9px_rgba(156,163,175,0.25)] transition-all">
               <img
                 src={profile}
                 alt="Karthik"
-                className="w-full h-full object-cover"
+                className="w-full object-cover"
               />
             </div>
           </div>

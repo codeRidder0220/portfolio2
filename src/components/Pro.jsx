@@ -285,7 +285,7 @@ const Pro = () => {
                                     02
                                 </p>
                                 <div className="flex items-center justify-center">
-                                    <h1 className="text-4xl text-gray-500 md:text-6xl font-nav font-bold tracking-[4px]">Commig Soon...</h1>
+                                    <h1 className="text-4xl text-gray-500 md:text-6xl font-nav font-bold tracking-[4px]">In Progress...</h1>
                                 </div>
 
                                 {/* <h2 className="
