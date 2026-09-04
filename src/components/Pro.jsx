@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import job from "../assets/jobb.png"
 import pro from "../assets/pro2.png"
+import Reveal from "./Reveal";
+import RightReveal from "./RightReveal";
 
 
 const Pro = () => {
@@ -11,7 +13,7 @@ const Pro = () => {
             <div className="max-w-4xl mx-auto">
 
                 {/* ================= HEADER ================= */}
-
+                <Reveal>
                 <div className="mb-14">
 
                     <p className="text-xs uppercase tracking-[0.3em] text-gray-600 font-mono mb-4">
@@ -28,10 +30,11 @@ const Pro = () => {
                     </p>
 
                 </div>
+                </Reveal>
 
 
                 {/* ================= PROJECT CARD ================= */}
-
+                <Reveal>
                 <div className="
                     relative
                     rounded-2xl
@@ -202,8 +205,9 @@ const Pro = () => {
                     </div>
 
                 </div>
+                </Reveal>
                 {/* ================= PROJECT CARD -2 ================= */}
-
+                <Reveal>
                 <div className="
                 
                     relative
@@ -377,6 +381,7 @@ const Pro = () => {
                     </div>
 
                 </div>
+                </Reveal>
 
             </div>
 

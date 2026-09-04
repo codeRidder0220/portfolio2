@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Reveal from "../components/Reveal";
+import RightReveal from "../components/RightReveal";
 import vid from "../assets/job.mp4"
-
 const ProjectDetails = () => {
     return (
         <section className="min-h-screen bg-black text-gray-200 px-4 py-15">
@@ -9,7 +10,7 @@ const ProjectDetails = () => {
             <div className="max-w-4xl mx-auto">
 
                 {/* ================= BACK ================= */}
-
+                <Reveal>
                 <Link
                     to="/projects"
                     className="
@@ -26,10 +27,11 @@ const ProjectDetails = () => {
                     <span>←</span>
                     Back to Projects
                 </Link>
+                </Reveal>
 
 
                 {/* ================= PROJECT HEADER ================= */}
-
+                <Reveal>
                 <div className="mb-8">
 
                     <div className="flex items-center justify-between gap-4">
@@ -83,10 +85,11 @@ const ProjectDetails = () => {
                     </div>
 
                 </div>
+                </Reveal>
 
 
                 {/* ================= VIDEO / PREVIEW ================= */}
-
+                <Reveal>
                 <div className="
                     relative
                     rounded-2xl
@@ -111,10 +114,11 @@ const ProjectDetails = () => {
                     </video>
 
                 </div>
+                </Reveal>
 
 
                 {/* ================= DESCRIPTION ================= */}
-
+                <Reveal>
                 <div className="
                     mt-12
                     grid
@@ -253,10 +257,11 @@ const ProjectDetails = () => {
                     </div>
 
                 </div>
+                </Reveal>
 
 
                 {/* ================= TECH USED ================= */}
-
+                <RightReveal>
                 <div className="
                     mt-14
                     pt-10
@@ -313,6 +318,7 @@ const ProjectDetails = () => {
                     </div>
 
                 </div>
+                </RightReveal>
 
             </div>
 
