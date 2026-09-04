@@ -3,11 +3,13 @@ import cover from "../assets/cover.jpg";
 import profile from "../assets/profile.png";
 import { FaGithub, FaLinkedin, FaRegFilePdf } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
-import { FaLocationDot, FaSquareXTwitter } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
+import Reveal from "./Reveal";
 
 const Hero = () => {
   return (
+    <Reveal>
     <section id="home" className="w-full px-4 pb-16">
       <div className="max-w-4xl mx-auto">
 
@@ -156,6 +158,7 @@ const Hero = () => {
 
       </div>
     </section>
+    </Reveal>
   );
 };
 

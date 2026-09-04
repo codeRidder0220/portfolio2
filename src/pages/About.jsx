@@ -10,6 +10,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
+import Reveal from "../components/Reveal";
+import RightReveal from "../components/RightReveal";
+import LeftReveal from "../components/LeftReveal";
 
 
 
@@ -89,10 +92,11 @@ const About = () => {
     return (
         <section id="about" className="w-full px-4 py-20">
 
+            
             <div className="max-w-4xl mx-auto">
 
                 {/* ================= HEADER ================= */}
-
+                <Reveal>
                 <div className="border-b border-gray-800 pb-9">
 
 
@@ -133,10 +137,12 @@ const About = () => {
                     </div>
 
                 </div>
+                </Reveal>
 
 
                 {/* ================= WHAT I LIKE BUILDING ================= */}
 
+                <Reveal>
                 <div className="py-13 border-b border-gray-800">
 
                     <h2 className="text-3xl sm:text-4xl font-main font-bold text-gray-200">
@@ -224,12 +230,14 @@ const About = () => {
                     </div>
 
                 </div>
+                </Reveal>
 
 
                 {/* ================= TECH STACK ================= */}
 
                 <div className="py-10 border-b border-gray-800">
 
+                    <Reveal>
                     {/* Heading */}
                     <h2 className="text-3xl sm:text-4xl font-main font-bold text-gray-200">
                         What I Build With
@@ -239,6 +247,8 @@ const About = () => {
                         A collection of technologies I use while building,
                         experimenting, and solving problems.
                     </p>
+
+                    </Reveal>
 
 
                     {/* Cards */}
@@ -252,6 +262,7 @@ const About = () => {
                                     const isActive = activeCard === index;
 
                                     return (
+                                        <RightReveal key={category} delay={index*0.12}>
                                         <div
                                             key={category}
                                             onClick={() =>
@@ -370,6 +381,7 @@ const About = () => {
                                             </div>
 
                                         </div>
+                                        </RightReveal>
                                     );
                                 }
                             )}
@@ -380,6 +392,7 @@ const About = () => {
 
 
                     {/* Hint */}
+                    <Reveal>
                     <div className="flex justify-between items-center">
 
                         <p className="
@@ -394,6 +407,7 @@ const About = () => {
                         </p>
 
                     </div>
+                    </Reveal>
 
                 </div>
 
@@ -405,8 +419,8 @@ const About = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
                         {/* ================= EDUCATION ================= */}
-
-                        <div className="border border-gray-900 rounded-md hover:-translate-y-1 p-6 bg-gray-500/10 min-h-75 transition-all hover:shadow-[0_4px_10px_rgba(156,163,175,0.2)]">
+                        <LeftReveal className="h-full">
+                        <div className="border border-gray-900 rounded-md hover:-translate-y-1 p-6 bg-gray-500/10 min-h-75 h-full transition-all hover:shadow-[0_4px_10px_rgba(156,163,175,0.2)]">
 
                             <div className="flex items-center gap-3 mb-8">
 
@@ -461,10 +475,11 @@ const About = () => {
                             </div>
 
                         </div>
+                        </LeftReveal>
 
 
                         {/* ================= EXPLORING ================= */}
-
+                        <RightReveal>
                         <div className="border border-gray-900 rounded-md hover:-translate-y-1 p-6 bg-gray-500/10 min-h-75 transition-all  hover:shadow-[0_4px_10px_rgba(156,163,175,0.2)]">
 
                             <div className="flex items-center gap-3 mb-8">
@@ -521,6 +536,7 @@ const About = () => {
                             </div>
 
                         </div>
+                        </RightReveal>
 
                     </div>
 
@@ -528,7 +544,7 @@ const About = () => {
 
 
                 {/* ================= CONNECT ================= */}
-
+                <Reveal>
                 <div className="py-13">
 
 
@@ -589,6 +605,7 @@ const About = () => {
                     </div>
 
                 </div>
+                </Reveal>
 
             </div>
 
