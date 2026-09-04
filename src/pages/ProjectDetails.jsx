@@ -206,7 +206,7 @@ const ProjectDetails = () => {
                         <div className="space-y-3">
 
                             <a
-                                href="https://github.com/"
+                                href="https://github.com/codeRidder0220/job_Finder.git"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="
