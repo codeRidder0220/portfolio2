@@ -60,7 +60,7 @@ const Hero = () => {
                 </p>
 
                 <a
-                href="mailto:coderidder0202@gmail.com"
+                href="mailto:theankitsingh2002@gmail.com"
                  className="break-all">
                   📩 karthik@example.com
                 </a>
@@ -116,7 +116,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://x.com/Ankit_Singh0220"
                   className="text-xl  text-gray-200 hover:text-gray-400"
                 >
                   <div className="flex gap-1 items-center justify-center">

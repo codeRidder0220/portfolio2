@@ -11,9 +11,9 @@ const ProjectDetails = () => {
 
                 {/* ================= BACK ================= */}
                 <Reveal>
-                <Link
-                    to="/projects"
-                    className="
+                    <Link
+                        to="/projects"
+                        className="
                         inline-flex
                         items-center
                         gap-2
@@ -23,22 +23,22 @@ const ProjectDetails = () => {
                         transition-colors
                         mb-10
                     "
-                >
-                    <span>←</span>
-                    Back to Projects
-                </Link>
+                    >
+                        <span>←</span>
+                        Back to Projects
+                    </Link>
                 </Reveal>
 
 
                 {/* ================= PROJECT HEADER ================= */}
                 <Reveal>
-                <div className="mb-8">
+                    <div className="mb-8">
 
-                    <div className="flex items-center justify-between gap-4">
+                        <div className="flex items-center justify-between gap-4">
 
-                        <div>
+                            <div>
 
-                            <p className="
+                                <p className="
                                 text-xs
                                 uppercase
                                 tracking-[0.3em]
@@ -46,10 +46,10 @@ const ProjectDetails = () => {
                                 font-mono
                                 mb-4
                             ">
-                                Project / 01
-                            </p>
+                                    Project / 01
+                                </p>
 
-                            <h1 className="
+                                <h1 className="
                                 text-4xl
                                 sm:text-5xl
                                 md:text-6xl
@@ -57,15 +57,15 @@ const ProjectDetails = () => {
                                 font-bold
                                 text-white
                             ">
-                                Job <span className="text-[#D97706]">Finder</span>
-                            </h1>
+                                    Job <span className="text-[#D97706]">Finder</span>
+                                </h1>
 
-                        </div>
+                            </div>
 
 
-                        {/* Project Type */}
+                            {/* Project Type */}
 
-                        <span className="
+                            <span className="
                             hidden
                             sm:block
                             px-4
@@ -79,18 +79,18 @@ const ProjectDetails = () => {
                             tracking-wider
                              text-[#fdb435]
                         ">
-                            Frontend
-                        </span>
+                                Frontend
+                            </span>
+
+                        </div>
 
                     </div>
-
-                </div>
                 </Reveal>
 
 
                 {/* ================= VIDEO / PREVIEW ================= */}
                 <Reveal>
-                <div className="
+                    <div className="
                     relative
                     rounded-2xl
                     border
@@ -100,26 +100,26 @@ const ProjectDetails = () => {
                     shadow-[0_10px_40px_rgba(156,163,175,0.08)]
                 ">
 
-                    <video
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-full aspect-video object-cover"
-                    >
-                        <source
-                            src={vid}
-                            type="video/mp4"
-                        />
-                    </video>
+                        <video
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-full aspect-video object-cover"
+                        >
+                            <source
+                                src={vid}
+                                type="video/mp4"
+                            />
+                        </video>
 
-                </div>
+                    </div>
                 </Reveal>
 
 
                 {/* ================= DESCRIPTION ================= */}
                 <Reveal>
-                <div className="
+                    <div className="
                     mt-12
                     grid
                     grid-cols-1
@@ -127,9 +127,9 @@ const ProjectDetails = () => {
                     gap-10
                 ">
 
-                    <div>
+                        <div>
 
-                        <p className="
+                            <p className="
                             text-xs
                             uppercase
                             tracking-[0.25em]
@@ -137,61 +137,59 @@ const ProjectDetails = () => {
                             font-mono
                             mb-4
                         ">
-                            About the project
-                        </p>
+                                About the project
+                            </p>
 
-                        <h2 className="
+                            <h2 className="
                             text-2xl
                             sm:text-3xl
                             font-bold
                             text-gary-200
                             mb-5
                         ">
-                            Finding jobs without making it feel like work.
-                        </h2>
+                                Finding jobs without making it feel like work.
+                            </h2>
 
-                        <div className="
+                            <div className="
                             text-gray-400
                             leading-relaxed
                             space-y-4
                         ">
 
-                            <p>
-                                Job Finder is a modern job searching platform
-                                designed to make exploring career opportunities
-                                simple and intuitive.
-                            </p>
+                                <p>
+                                    Job Finder is a modern job searching platform that I built
+                                    completely from scratch. I designed and developed the entire
+                                    interface myself, keeping it simple, clean and intuitive.
+                                </p>
 
-                            <p>
-                                Users can search through available jobs, filter
-                                them based on different requirements, explore
-                                companies and browse jobs through categories.
-                            </p>
+                                <p>
+                                    Users can search through available jobs, filter them based on
+                                    different requirements, explore companies and browse jobs through
+                                    categories.
+                                </p>
 
-                            <p>
-                                I built the project mainly to improve my
-                                understanding of React, component-based
-                                architecture, routing, state management and
-                                responsive UI development.
-                            </p>
+                                <p>
+                                    I built this project from the basics to strengthen my React skills,
+                                    especially component-based architecture, routing, state management,
+                                    responsive UI and theme handling.
+                                </p>
 
-                            <p>
-                                The goal was not just to make another job
-                                listing website, but to understand how different
-                                parts of a real-world frontend application fit
-                                together.
-                            </p>
+                                <p>
+                                    More than just building a job listing website, this project gave me
+                                    hands-on React practice while learning how to design and structure
+                                    a complete frontend application on my own.
+                                </p>
+
+                            </div>
 
                         </div>
 
-                    </div>
 
+                        {/* ================= LINKS ================= */}
 
-                    {/* ================= LINKS ================= */}
+                        <div>
 
-                    <div>
-
-                        <p className="
+                            <p className="
                             text-xs
                             uppercase
                             tracking-[0.25em]
@@ -199,17 +197,17 @@ const ProjectDetails = () => {
                             font-mono
                             mb-4
                         ">
-                            Links
-                        </p>
+                                Links
+                            </p>
 
 
-                        <div className="space-y-3">
+                            <div className="space-y-3">
 
-                            <a
-                                href="https://github.com/codeRidder0220/job_Finder.git"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="
+                                <a
+                                    href="https://github.com/codeRidder0220/job_Finder.git"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="
                                     flex
                                     items-center
                                     justify-between
@@ -224,15 +222,15 @@ const ProjectDetails = () => {
                                     hover:border-gray-600
                                     transition-all
                                 "
-                            >
-                                GitHub
-                                <span>↗</span>
-                            </a>
+                                >
+                                    GitHub
+                                    <span>↗</span>
+                                </a>
 
 
-                            <a
-                                href="#"
-                                className="
+                                <a
+                                    href="#"
+                                    className="
                                     flex
                                     items-center
                                     justify-between
@@ -247,29 +245,29 @@ const ProjectDetails = () => {
                                     hover:border-gray-600
                                     transition-all
                                 "
-                            >
-                                Live Preview
-                                <span>↗</span>
-                            </a>
+                                >
+                                    Live Preview
+                                    <span>↗</span>
+                                </a>
+
+                            </div>
 
                         </div>
 
                     </div>
-
-                </div>
                 </Reveal>
 
 
                 {/* ================= TECH USED ================= */}
                 <RightReveal>
-                <div className="
+                    <div className="
                     mt-14
                     pt-10
                     border-t
                     border-gray-800
                 ">
 
-                    <p className="
+                        <p className="
                         text-xs
                         uppercase
                         tracking-[0.25em]
@@ -277,47 +275,47 @@ const ProjectDetails = () => {
                         font-mono
                         mb-5
                     ">
-                        Built With
-                    </p>
+                            Built With
+                        </p>
 
 
-                    <div className="flex flex-wrap gap-3">
+                        <div className="flex flex-wrap gap-3">
 
-                        <span className="tech-pill">
-                            React
-                        </span>
+                            <span className="tech-pill">
+                                React
+                            </span>
 
-                        <span className="tech-pill">
-                            HTML
-                        </span>
+                            <span className="tech-pill">
+                                HTML
+                            </span>
 
-                        <span className="tech-pill">
-                            CSS
-                        </span>
+                            <span className="tech-pill">
+                                CSS
+                            </span>
 
-                        <span className="tech-pill">
-                            JavaScript
-                        </span>
+                            <span className="tech-pill">
+                                JavaScript
+                            </span>
 
-                        <span className="tech-pill">
-                            Tailwind CSS
-                        </span>
+                            <span className="tech-pill">
+                                Tailwind CSS
+                            </span>
 
-                        <span className="tech-pill">
-                            React Router DOM
-                        </span>
+                            <span className="tech-pill">
+                                React Router DOM
+                            </span>
 
-                        <span className="tech-pill">
-                            Context API
-                        </span>
+                            <span className="tech-pill">
+                                Context API
+                            </span>
 
-                        <span className="tech-pill">
-                            Vite
-                        </span>
+                            <span className="tech-pill">
+                                Vite
+                            </span>
+
+                        </div>
 
                     </div>
-
-                </div>
                 </RightReveal>
 
             </div>
