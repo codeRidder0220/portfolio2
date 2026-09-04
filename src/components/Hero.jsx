@@ -62,7 +62,7 @@ const Hero = () => {
                 <a
                 href="mailto:theankitsingh2002@gmail.com"
                  className="break-all">
-                  📩 karthik@example.com
+                  📩 theankitsingh2002@gmail.com
                 </a>
 
                 <p className="break-all mt-2">
@@ -99,7 +99,7 @@ const Hero = () => {
               </p>
 
               <p className="text-gray-400 mt-5 leading-relaxed max-w-xl">
-                I love turning ideas into real projects — from clean and interactive frontend experiences to powerful backend systems. When I'm not building something, you'll probably find me solving DSA problems or sharpening my competitive programming skills.
+                I love turning ideas into real projects ... from clean and interactive frontend experiences to powerful backend systems. When I'm not building something, you'll probably find me solving DSA problems or sharpening my competitive programming skills.
               </p>
 
               {/* Social Links */}
