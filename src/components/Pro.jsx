@@ -50,7 +50,8 @@ const Pro = () => {
 
                     <div className="
                         absolute
-                        top-4
+                        top-80
+                        sm:top-4
                         right-4
                         z-10
                         px-3
