@@ -128,7 +128,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/feed/"
+                  href="https://www.linkedin.com/in/ankit-singh-85417733a/"
                   className=" text-xl font-semibold text-gray-200 hover:text-blue-500 transition-colors"
                 >
                   <div className="flex items-center justify-center gap-1">

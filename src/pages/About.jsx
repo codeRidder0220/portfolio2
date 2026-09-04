@@ -571,7 +571,7 @@ const About = () => {
                         </a>  
 
                         <a
-                            href="https://www.linkedin.com/feed/"
+                            href="https://www.linkedin.com/in/ankit-singh-85417733a/"
                             className="flex gap-2 px-5 py-2.5 rounded-full border border-gray-700 text-sm text-gray-300 hover:text-white hover:border-gray-500"
                         >
                             <FaLinkedin className=" text-lg" />
