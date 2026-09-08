@@ -107,7 +107,7 @@ const About = () => {
                     <div className="mt-7 max-w-3xl space-y-4 text-gray-400 leading-relaxed text-base">
 
                         <p>
-                            Hey, I'm Karthik : ) I'm the kind of person who gets
+                            Hey, I'm Ankit : ) I'm the kind of person who gets
                             curious about how things actually work.
                         </p>
 
