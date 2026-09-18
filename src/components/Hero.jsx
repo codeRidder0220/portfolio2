@@ -84,7 +84,7 @@ const Hero = () => {
               <p className="text-gray-300 text-sm sm:text-lg font-special font-bold mt-2">
                 <Typewriter words={[
                   "Full Stack Developer",
-                  "DSA Enthusiast(c++)",
+                  "DSA Enthusiast (c++)",
                   "Competetive programming",
                   "Aspiring GenAi"
                 ]}

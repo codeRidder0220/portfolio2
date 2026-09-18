@@ -107,7 +107,7 @@ const About = () => {
                     <div className="mt-7 max-w-3xl space-y-4 text-gray-400 leading-relaxed text-base">
 
                         <p>
-                            Hey, I'm Ankit : ) I'm the kind of person who gets
+                            Hey, I'm Ankit_ I'm the kind of person who gets
                             curious about how things actually work.
                         </p>
 
@@ -131,7 +131,7 @@ const About = () => {
                             onClick={() => setShowMore(!showMore)}
                             className="text-gray-300 font-semibold hover:text-gray-400 transition-colors cursor-pointer "
                         >
-                            {showMore ? "← Less" : "Show more →"}
+                            {showMore ? "← show Less" : "Show more →"}
                         </button>
 
                     </div>
